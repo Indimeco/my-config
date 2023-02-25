@@ -39,5 +39,5 @@ alias ls='ls -GFh'
 alias gs='git status -bs'
 alias gopr='git push -u origin HEAD && gh pr create --web'
 alias gpr='gh pr view'
-alias gcb="git branch | grep '^\*' | cut -d' ' -f2 | tr -d '\n' | pbcopy"
+alias gcbn="git branch | grep '^\*' | cut -d' ' -f2 | tr -d '\n' | pbcopy"
 alias n="jump notes"
